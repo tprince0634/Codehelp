@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 60vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+   
+    
+}
+.header_container{
+    margin-bottom: 2.8rem;
+}
+.header_title{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.header_desc{
+    max-width: 568px;
+    text-align: center;
+    color: rgb(105, 99, 99);
+    margin: 0 auto;
+}
+
+
+.main_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    gap: 1.5rem;
+ 
+   
+    justify-content: center;
+ 
+}
+
+
+.card_container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(233, 224, 224);
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.card_img_container{
+    position: relative;
+    height: 15rem;
+}
+
+
+
+.card_image{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+/*object-fit: cover;
+object-position: center;*/
+
+.card_title_container{
+    display: flex;
+    flex-direction: column;
+}
+.card_title_anchor{
+    font-size: medium;
+    font-weight: 100px;
+    color: blue;
+}
+.card_desc{
+    color: brown;
+    font-weight: 100px;
+}
+
+
+.card_footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.author_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.author_avatar_container{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: yellow;
+}
+.author_info_container{
+    display: flex;
+    flex-direction: column;
+}
+.author_name{
+    color: blue;
+    font-size: medium;
+}
+.author_date{
+    color: blue;
+    font-size: medium;
+
+}
+.card_tag_container{
+    border: 1px solid black;
+    padding: 5px;
+    line-height: 1.3rem;
+}
